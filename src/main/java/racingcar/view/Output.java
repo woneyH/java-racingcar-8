@@ -1,9 +1,7 @@
 package racingcar.view;
 
 import racingcar.dto.Cars;
-
 import java.util.List;
-import java.util.StringJoiner;
 
 public class Output {
   private final String OUT_PRINT_INTRO = "실행 결과";
