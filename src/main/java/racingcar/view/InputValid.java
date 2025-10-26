@@ -21,7 +21,7 @@ public class InputValid {
       throw new IllegalArgumentException(ExceptionMessage.IS_NOT_INTEGER.getMessage());
     }
     Integer stringToNum = Integer.parseInt(countNum);
-    if(stringToNum<0){
+    if(stringToNum<=0){
       throw new IllegalArgumentException(ExceptionMessage.IS_NOT_POSITIVE_NUM.getMessage());
     }
     return stringToNum;
