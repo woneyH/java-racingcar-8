@@ -29,7 +29,7 @@ public class Service {
 
   private void randomNumberGrant(Output output){
     for(Cars player: cars){
-      int picked = Randoms.pickNumberInRange(0, 9);
+      int picked = Randoms.pickNumberInRange(RANDOM_MIN, RANDOM_MAX);
       player.goUpPoint(picked);
     }
     output.printRoundStatus(cars);
