@@ -50,9 +50,9 @@ public class InputValid {
 
   private void validateDuplicateNames(List<String> names) {
     Set<String> uniqueNames = new HashSet<>(names);
-      if(uniqueNames.size() != names.size()) {
-        throw new IllegalArgumentException(ExceptionMessage.DUPLICATE_NAME.getMessage());
-      }
+    if(uniqueNames.size() != names.size()) {
+      throw new IllegalArgumentException(ExceptionMessage.DUPLICATE_NAME.getMessage());
+    }
   }
 
 }
